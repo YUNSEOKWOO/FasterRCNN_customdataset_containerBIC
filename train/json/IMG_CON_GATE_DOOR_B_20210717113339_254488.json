@@ -1,0 +1,109 @@
+{
+  "Dataset": {
+    "identifier": "IMG_PORT_LOGI_57",
+    "name": "컨테이너 정보 인식",
+    "src_path": "Container/Gate/Door",
+    "label_path": "Container/Gate/Door",
+    "category": "2",
+    "type": "1"
+  },
+  "images": {
+    "identifier": "IMG_CON_GATE_DOOR_B_20210717113339_254488",
+    "type": "jpg",
+    "filename": "IMG_CON_GATE_DOOR_B_20210717113339_254488.jpg",
+    "width": 1920,
+    "height": 1080
+  },
+  "addinfo": {
+    "weather": "1",
+    "daynight": "1",
+    "area": "B",
+    "direction": "Door",
+    "location": "Gate",
+    "anglex": 30,
+    "angley": 30,
+    "camid": "22",
+    "time": "20210717113339",
+    "imdg": false,
+    "dataregion": "0",
+    "biccountofline": 1
+  },
+  "annotations": [
+    {
+      "bbox": {
+        "id": "BBX_01",
+        "classid": "DOOR",
+        "points": [
+          [
+            0.39688422662127532,
+            0
+          ],
+          [
+            1318.4235521397961,
+            0
+          ],
+          [
+            1318.4235521397961,
+            1080.2019718378149
+          ],
+          [
+            0.39688422662127532,
+            1080.2019718378149
+          ]
+        ]
+      }
+    },
+    {
+      "bbox": {
+        "id": "BBX_02",
+        "classid": "BIC",
+        "text": "SEGU5866790",
+        "points": [
+          [
+            798.85626220703125,
+            297.59127807617188
+          ],
+          [
+            1186.912109375,
+            318.2449951171875
+          ],
+          [
+            1183.77197265625,
+            377.95242309570313
+          ],
+          [
+            800.05072021484375,
+            351.09857177734375
+          ]
+        ],
+        "ocrdirection": "0"
+      }
+    },
+    {
+      "bbox": {
+        "id": "BBX_03",
+        "classid": "TYPESIZE",
+        "text": "L5G1",
+        "points": [
+          [
+            801.16497802734375,
+            371.37667846679688
+          ],
+          [
+            912.754638671875,
+            378.30801391601563
+          ],
+          [
+            913.2379150390625,
+            428.62762451171875
+          ],
+          [
+            803.36602783203125,
+            422.67544555664063
+          ]
+        ],
+        "ocrdirection": "0"
+      }
+    }
+  ]
+}
