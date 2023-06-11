@@ -16,7 +16,7 @@ Train/Evaluation FasterRCNN Model with customdataset of container BIC code
 ## Experiment
 1. change the json files to cocodataset format to utilize pycocotools library
 2. define Customdataset class
-3. train (10 epoch)
+3. train (10 epoch)   * weights download : https://drive.google.com/drive/folders/1THN22Cd01a6gsQ70geVJQoaBDpR7ZRQJ?usp=drive_link
 4. evaluation
 5. visualization
 * optimizer : SGD, learning rate: 0.005, weight decay: 0.0005, momentum: 0.9, IOU threshold: 0.5
