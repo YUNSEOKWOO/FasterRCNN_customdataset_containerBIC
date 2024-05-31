@@ -40,5 +40,3 @@ fasterrcnn_resnet50_fpnv2
 <img src="./sample/double line.jpg" width="400" height="800">
 * can't catch doubleline code
 * can't catch high resolution image(above 3000pix)
-
-## Paper : ongoing
